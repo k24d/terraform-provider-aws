@@ -328,6 +328,7 @@ func Provider() terraform.ResourceProvider {
 			"aws_ami_launch_permission":                               resourceAwsAmiLaunchPermission(),
 			"aws_amplify_app":                                         resourceAwsAmplifyApp(),
 			"aws_amplify_backend_environment":                         resourceAwsAmplifyBackendEnvironment(),
+			"aws_amplify_branch":                                      resourceAwsAmplifyBranch(),
 			"aws_api_gateway_account":                                 resourceAwsApiGatewayAccount(),
 			"aws_api_gateway_api_key":                                 resourceAwsApiGatewayApiKey(),
 			"aws_api_gateway_authorizer":                              resourceAwsApiGatewayAuthorizer(),
