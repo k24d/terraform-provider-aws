@@ -330,6 +330,7 @@ func Provider() terraform.ResourceProvider {
 			"aws_amplify_backend_environment":                         resourceAwsAmplifyBackendEnvironment(),
 			"aws_amplify_branch":                                      resourceAwsAmplifyBranch(),
 			"aws_amplify_domain_association":                          resourceAwsAmplifyDomainAssociation(),
+			"aws_amplify_webhook":                                     resourceAwsAmplifyWebhook(),
 			"aws_api_gateway_account":                                 resourceAwsApiGatewayAccount(),
 			"aws_api_gateway_api_key":                                 resourceAwsApiGatewayApiKey(),
 			"aws_api_gateway_authorizer":                              resourceAwsApiGatewayAuthorizer(),
